@@ -4,15 +4,15 @@ examples:
 
 (@:loop
   <code>
-  (@:exit-when <condition>))
+  (@:exit-when _condition_))
 
 (@:loop
   <code>
-  (@:exit-when <condition>))
+  (@:exit-when _condition_))
 
 (@:loop
   <code>
-  (@:exit-when <condition>)
+  (@:exit-when _condition_)
   <code>)
 
 
