@@ -4,21 +4,21 @@ examples:
 
 ```
 (@:loop
-  (@:exit-when _condition_)
-  _code_)
+  (@:exit-when <condition>)
+  <code>)
 ```
 
 ```
 (@:loop
-  _code_
-  (@:exit-when _condition_))
+  <code>
+  (@:exit-when <condition>))
 ```
 
 ```
 (@:loop
-  _code_
-  (@:exit-when _condition_)
-  _code_)
+  <code>
+  (@:exit-when <condition>)
+  <code>)
 ```
 
 
