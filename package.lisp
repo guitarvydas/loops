@@ -1,4 +1,4 @@
-(defpackage :@
+(defpackage "@"
   (:shadow cl:loop)
   (:export
    #:loop
