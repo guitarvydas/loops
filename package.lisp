@@ -1,10 +1,10 @@
-(defpackage "LOOPS"
+(defpackage loops
+  (:use :common-lisp)
+  (:shadow :loop)
   (:nicknames "@")
-  (:shadow cl:loop)
   (:export
    #:loop
-   #:exit-when
-   ))
+   #:exit-when))
 
 
 
